@@ -1,3 +1,4 @@
+# simple password Generator
 import random
 import time
 from characters import character
