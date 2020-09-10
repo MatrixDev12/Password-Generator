@@ -2,4 +2,3 @@
 Password Generator
 
 TODO:
-* [ ] Add basic encryption to passwords
