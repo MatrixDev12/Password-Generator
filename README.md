@@ -1,3 +1,2 @@
 # Password-Generator
-Password Generator
-under the MIT license
+Password Generator made available under the MIT license
