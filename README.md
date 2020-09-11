@@ -1,4 +1,3 @@
 # Password-Generator
 Password Generator
-
-TODO:
+under the MIT license
