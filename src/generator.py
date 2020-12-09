@@ -1,5 +1,5 @@
 # simple password Generator
-import random
+from random import choice
 from time import sleep
 from characters import character
 
@@ -22,12 +22,14 @@ sleep(1)
 for p in range(number):
   password = ''
   for c in range(length):
-    password += random.choice(characters)
+    password += choice(characters)
   print("password :- " + password)
 
 sleep(1)
 
-print("Passwords have been generated!")
+print("passwords have been generated!")
+
+print(number)
 
 sleep(1)
 
