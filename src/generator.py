@@ -13,12 +13,6 @@ s(1)
 length = input('How many characters? - ')
 length = int(length)
 
-s(0.5)
-
-print("Generating passwords...") 
-
-s(1)
-
 for p in range(number):
   password = ''
   for c in range(length):
@@ -29,8 +23,4 @@ s(1)
 
 print("passwords have been generated!")
 
-print(number)
 
-s(1)
-
-print("Thank you for using the MatrixDev password generator.")
