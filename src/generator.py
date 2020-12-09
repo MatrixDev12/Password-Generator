@@ -1,6 +1,6 @@
 # simple password Generator
 from random import choice
-from time import sleep
+from time import sleep as s
 from characters import character
 
 characters = character
@@ -8,16 +8,16 @@ characters = character
 number = input('Number of passwords? - ')                
 number = int(number)
 
-sleep(1)
+s(1)
 
 length = input('How many characters? - ')
 length = int(length)
 
-sleep(0.5)
+s(0.5)
 
-print("Generating passwords...")
+print("Generating passwords...") 
 
-sleep(1)
+s(1)
 
 for p in range(number):
   password = ''
@@ -25,12 +25,12 @@ for p in range(number):
     password += choice(characters)
   print("password :- " + password)
 
-sleep(1)
+s(1)
 
 print("passwords have been generated!")
 
 print(number)
 
-sleep(1)
+s(1)
 
 print("Thank you for using the MatrixDev password generator.")
