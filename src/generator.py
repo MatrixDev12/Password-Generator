@@ -1,5 +1,5 @@
 # simple password Generator
-from random import choice
+from random import choice as ch
 from time import sleep as s
 from characters import character
 
@@ -14,10 +14,10 @@ length = input('How many characters? - ')
 length = int(length)
 
 for p in range(number):
-  password = ''
+  pw = ''
   for c in range(length):
-    password += choice(characters)
-  print("password :- " + password)
+    pw += ch(characters)
+  print("password :- " + pw)
 
 s(1)
 
