@@ -17,10 +17,10 @@ for p in range(number):
   pw = ''
   for c in range(length):
     pw += ch(characters)
-  print("password :- " + pw)
+  print("Password :- " + pw)
 
 s(1)
 
-print("passwords have been generated!")
+print("Passwords have been generated!")
 
 
