@@ -15,7 +15,7 @@ for p in range(number):
   pw = ''
   for c in range(length):
     pw += ch(characters)
-  print("Password :- " + pw)
+  print("Password = " + pw)
 
 s(1)
 
