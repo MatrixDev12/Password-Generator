@@ -17,8 +17,4 @@ for p in range(number):
     pw += ch(characters)
   print("Password = " + pw)
 
-s(1)
-
-print("Passwords have been generated!")
-
 
