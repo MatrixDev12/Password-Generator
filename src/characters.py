@@ -1,1 +1,1 @@
-characters = "qwertyuiopasdfghjklzxcvbnm123456789{}:;'>?[]-=_+`~"
+characters = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM123456789{}:;'>?[]-=_+`~"
