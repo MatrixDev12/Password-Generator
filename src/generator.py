@@ -1,9 +1,7 @@
 # simple password Generator
 from random import choice as ch
 from time import sleep as s
-from characters import character
-
-characters = character
+from characters import characters
 
 number = input('Number of passwords? - ')                
 number = int(number)

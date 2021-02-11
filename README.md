@@ -1,3 +1,5 @@
-# Password-Generator - version-number = 1.2.0
-Password Generator made available under the MIT license
+# Password-Generator
 
+version - 1.20.1
+
+Password Generator made available under the MIT license
