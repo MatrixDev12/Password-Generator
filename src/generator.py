@@ -1,20 +1,55 @@
-# simple password Generator
-from random import choice as ch
-from time import sleep as s
-from characters import characters
+from chars import characters
+from random import choice
 
-number = input('Number of passwords? - ')                
-number = int(number)
+inpt = input("Input desired strength (weak, moderate, strong, strongest, custom) ")
 
-s(1)
+def weak():   
+    pw = ''
+    for c in range(4):
+        pw += choice(characters)
+    print("Password = " + pw)
 
-length = input('How many characters? - ')
-length = int(length)
+def moderate():   
+    pw = ''
+    for c in range(8):
+        pw += choice(characters)
+    print("Password = " + pw)
 
-for p in range(number):
-  pw = ''
-  for c in range(length):
-    pw += ch(characters)
-  print("Password = " + pw)
+def strong():   
+    pw = ''
+    for c in range(12):
+        pw += choice(characters)
+    print("Password = " + pw)
+
+def strongest():   
+    pw = ''
+    for c in range(14):
+        pw += choice(characters)
+    print("Password = " + pw)
+
+
+def custom():
+    length = input('How many characters? - ')
+    length = int(length)
+
+    pw = ''
+    for c in range(length):
+        pw += choice(characters)
+    print("Password = " + pw)
+
+if inpt == "weak":
+    weak()
+
+if inpt == "moderate":
+    moderate()
+
+if inpt == "strong":
+    strong()
+
+if inpt == "strongest":
+    strongest
+
+if inpt == "custom":
+    custom()
 
 
