@@ -10,4 +10,4 @@ Password Generator made available under the MIT license
     - [x] moderate
     - [x] strong
     - [x] strongest
-- [ ] create desktop GUI
+- [x] create desktop GUI
