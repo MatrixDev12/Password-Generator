@@ -1,7 +1,7 @@
-from chars import characters
+from characters import characters
 from random import choice
 
-inpt = input("Input desired strength (weak, moderate, strong, strongest, custom) ")
+inpt = input("Input desired password strength (weak, moderate, strong, strongest, custom) ")
 
 def weak():   
     pw = ''
